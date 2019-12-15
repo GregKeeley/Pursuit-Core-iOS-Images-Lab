@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C11AA6B723A6801F002885AD /* ImageClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11AA6B623A6801F002885AD /* ImageClient.swift */; };
 		C1D18DEB23A426B500423D7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D18DEA23A426B500423D7F /* AppDelegate.swift */; };
 		C1D18DED23A426B500423D7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D18DEC23A426B500423D7F /* SceneDelegate.swift */; };
 		C1D18DEF23A426B500423D7F /* xkcdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D18DEE23A426B500423D7F /* xkcdViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C11AA6B623A6801F002885AD /* ImageClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClient.swift; sourceTree = "<group>"; };
 		C1D18DE723A426B500423D7F /* ImagesLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagesLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D18DEA23A426B500423D7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1D18DEC23A426B500423D7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,8 +105,9 @@
 		C1D18E0823A42CE800423D7F /* Network Services */ = {
 			isa = PBXGroup;
 			children = (
-				C1D18E0923A42CFE00423D7F /* NetworkHelper.swift */,
 				C1D18E0B23A4327C00423D7F /* xkcdComicAPI.swift */,
+				C1D18E0923A42CFE00423D7F /* NetworkHelper.swift */,
+				C11AA6B623A6801F002885AD /* ImageClient.swift */,
 			);
 			path = "Network Services";
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				C1D18DFF23A4274E00423D7F /* PokemonViewController.swift in Sources */,
 				C1D18DED23A426B500423D7F /* SceneDelegate.swift in Sources */,
 				C1D18E0423A42B0600423D7F /* pokemonModel.swift in Sources */,
+				C11AA6B723A6801F002885AD /* ImageClient.swift in Sources */,
 				C1D18E0C23A4327C00423D7F /* xkcdComicAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
