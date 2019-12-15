@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C11AA6B723A6801F002885AD /* ImageClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11AA6B623A6801F002885AD /* ImageClient.swift */; };
+		C11AA6B923A6ABAA002885AD /* VCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11AA6B823A6ABAA002885AD /* VCExtension.swift */; };
 		C1D18DEB23A426B500423D7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D18DEA23A426B500423D7F /* AppDelegate.swift */; };
 		C1D18DED23A426B500423D7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D18DEC23A426B500423D7F /* SceneDelegate.swift */; };
 		C1D18DEF23A426B500423D7F /* xkcdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D18DEE23A426B500423D7F /* xkcdViewController.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		C11AA6B623A6801F002885AD /* ImageClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClient.swift; sourceTree = "<group>"; };
+		C11AA6B823A6ABAA002885AD /* VCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCExtension.swift; sourceTree = "<group>"; };
 		C1D18DE723A426B500423D7F /* ImagesLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagesLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D18DEA23A426B500423D7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1D18DEC23A426B500423D7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				C1D18DEA23A426B500423D7F /* AppDelegate.swift */,
 				C1D18DEC23A426B500423D7F /* SceneDelegate.swift */,
 				C1D18DF023A426B500423D7F /* Main.storyboard */,
+				C11AA6B823A6ABAA002885AD /* VCExtension.swift */,
 				C1D18E0223A42A1C00423D7F /* ViewControllers */,
 				C1D18E0723A42CA800423D7F /* Models */,
 				C1D18E0823A42CE800423D7F /* Network Services */,
@@ -185,6 +188,7 @@
 			files = (
 				C1D18E0A23A42CFE00423D7F /* NetworkHelper.swift in Sources */,
 				C1D18DEF23A426B500423D7F /* xkcdViewController.swift in Sources */,
+				C11AA6B923A6ABAA002885AD /* VCExtension.swift in Sources */,
 				C1D18E0623A42B3B00423D7F /* xkcdComicModel.swift in Sources */,
 				C1D18E0123A4298200423D7F /* RandomUserViewController.swift in Sources */,
 				C1D18DEB23A426B500423D7F /* AppDelegate.swift in Sources */,

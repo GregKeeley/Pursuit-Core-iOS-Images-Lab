@@ -11,7 +11,7 @@ import Foundation
 struct xkcdComicAPI {
     static func getTodaysComic(for comicID: String, completion: @escaping (Result<xkcdComic, AppError>) -> ()) {
         let comicID = comicID.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) ?? ""
-        let comicEndpointURL = "http://xkcd.com/\(comicID)info.0.json"
+        let comicEndpointURL = "https://xkcd.com/\(comicID)info.0.json"
         guard let url = URL(string: comicEndpointURL) else {
             completion(.failure(.badURL(comicEndpointURL)))
             return
